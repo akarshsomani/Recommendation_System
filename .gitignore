@@ -1,3 +1,4 @@
 venv/
 .idea/
 notebooks/.ipynb_checkpoints
+models/__pycache__/

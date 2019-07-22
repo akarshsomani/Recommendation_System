@@ -1,11 +1,7 @@
 import mysql.connector
+from models import config
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  passwd="1234",
-  database="movie_data"
-)
+mydb = mysql.connector.connect(**config.db_credentials)
 
 print(mydb)
 mycursor = mydb.cursor()
