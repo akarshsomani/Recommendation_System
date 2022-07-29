@@ -21,7 +21,7 @@ jupyter-core==4.5.0
 kiwisolver==1.1.0
 MarkupSafe==1.1.1
 matplotlib==3.1.1
-mistune==0.8.4
+mistune==2.0.3
 mysql-client==0.0.1
 mysql-connector==2.2.9
 mysql-connector-python==8.0.16
